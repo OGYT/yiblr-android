@@ -5,6 +5,8 @@ import android.content.Intent;
 import android.os.Handler;
 import android.os.Bundle;
 
+import com.petersoboyejo.yiblr.ui.AlarmListActivity;
+
 public class SplashActivity extends Activity {
 
     public static int SPLASH_TIME_OUT = 3000;
@@ -19,7 +21,7 @@ public class SplashActivity extends Activity {
             @Override
             public void run() {
 
-                Intent i = new Intent(SplashActivity.this, MainActivity.class);
+                Intent i = new Intent(SplashActivity.this, AlarmListActivity.class);
                 startActivity(i);
 
                 finish();
