@@ -2,6 +2,13 @@
 <items version="2" >
 
     <item
+        jar="/Users/p3ter/Desktop/CodeDay Winter/yiblr-android/app/libs/sugar-1.4_beta.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4101767d6f58049ff480be3deeecab2fdbbb0361">
+        <dex dex="/Users/p3ter/Desktop/CodeDay Winter/yiblr-android/app/build/intermediates/pre-dexed/debug/sugar-1.4_beta-b9a5c2451eec156107efa98eea0c16339ee3c7a1.jar" />
+    </item>
+    <item
         jar="/Users/p3ter/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
         jumboMode="false"
         revision="21.1.2"

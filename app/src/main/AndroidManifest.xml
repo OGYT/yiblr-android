@@ -2,15 +2,26 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.petersoboyejo.yiblr" >
 
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
+
+        <activity android:name=".AlarmListActivity"
+            android:label="@string/app_name">
+        </activity>
+
+        <activity android:name=".AlarmEditActivity"
+            android:label="@string/app_name">
+        </activity>
+
         <activity
             android:name=".SplashActivity"
-            android:theme="@style/Splash"
             android:label="@string/app_name" >
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

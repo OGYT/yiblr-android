@@ -5,7 +5,6 @@ import android.content.Intent;
 import android.os.Handler;
 import android.os.Bundle;
 
-import com.petersoboyejo.yiblr.ui.AlarmListActivity;
 
 public class SplashActivity extends Activity {
 

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/RelativeLayout01" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:padding="2dp">
+	<LinearLayout android:id="@+id/linearLayout1"
+		android:layout_height="wrap_content" android:layout_width="match_parent">
+		<ToggleButton android:text="ToggleButton" android:id="@+id/toggleButton1" android:layout_height="wrap_content" android:layout_width="wrap_content"></ToggleButton>
+		<TextView android:id="@+id/list_item_text"
+
+			android:layout_height="wrap_content" android:layout_width="wrap_content"
+			android:text="Description and stuff"></TextView>
+	</LinearLayout>
+</RelativeLayout>
