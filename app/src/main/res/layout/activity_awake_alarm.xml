@@ -6,8 +6,12 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+<<<<<<< HEAD
     tools:context="com.petersoboyejo.yiblr.AwakeAlarmActivity$PlaceholderFragment"
     android:background="@color/background_floating_material_dark">
+=======
+    tools:context="com.example.sleepz.AwakeAlarmActivity$PlaceholderFragment" >
+>>>>>>> origin/master
 
     <TextView
         android:id="@+id/awake_alarm_textview"
@@ -18,8 +22,12 @@
         android:layout_marginTop="24sp"
         android:text="Time you will sleep?"
         android:textAppearance="?android:attr/textAppearanceMedium"
+<<<<<<< HEAD
         android:textSize="30sp"
         android:textColor="@color/background_floating_material_light" />
+=======
+        android:textSize="30sp" />
+>>>>>>> origin/master
 
     <TimePicker
         android:id="@+id/awake_alarm_timepicker"

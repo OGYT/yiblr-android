@@ -113,7 +113,11 @@ public class AlarmListAdapter extends BaseAdapter {
 	//update color of enabled days
 	private void updateTextColor(TextView view, boolean isOn) {
 		if (isOn) {
+<<<<<<< HEAD
 			view.setTextColor(Color.rgb(229, 57, 53));
+=======
+			view.setTextColor(Color.rgb(51, 181, 229));
+>>>>>>> origin/master
 		} else {
 			view.setTextColor(Color.BLACK);
 		}

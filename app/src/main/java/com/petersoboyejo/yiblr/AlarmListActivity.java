@@ -1,5 +1,12 @@
 package com.petersoboyejo.yiblr;
 
+<<<<<<< HEAD
+=======
+//Creation of alarm clock was adapted from the tutorial at this link
+//http://www.steventrigg.com/alarm-clock-tutorials/
+//author has claimed it to be free to use
+
+>>>>>>> origin/master
 import android.app.AlertDialog;
 import android.app.ListActivity;
 import android.content.Context;
@@ -11,6 +18,7 @@ import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 import android.os.Bundle;
+<<<<<<< HEAD
 import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -19,6 +27,10 @@ import android.widget.ListView;
 import android.widget.Toast;
 
 import com.melnykov.fab.FloatingActionButton;
+=======
+import android.view.Menu;
+import android.view.MenuItem;
+>>>>>>> origin/master
 
 public class AlarmListActivity extends ListActivity {
 
@@ -26,9 +38,12 @@ public class AlarmListActivity extends ListActivity {
 	private AlarmDBHelper dbHelper = new AlarmDBHelper(this);
 	private Context mContext;
 
+<<<<<<< HEAD
     private SensorManager mSensorManager;
     private Sensor mSensor;
 
+=======
+>>>>>>> origin/master
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -38,6 +53,7 @@ public class AlarmListActivity extends ListActivity {
 		mAdapter = new AlarmListAdapter(this, dbHelper.getAlarms());
 		setListAdapter(mAdapter);
 
+<<<<<<< HEAD
         mSensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
         mSensor = mSensorManager.getDefaultSensor(Sensor.TYPE_PROXIMITY);
 
@@ -54,6 +70,10 @@ public class AlarmListActivity extends ListActivity {
 	}
 
 
+=======
+	}
+
+>>>>>>> origin/master
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 
@@ -66,6 +86,7 @@ public class AlarmListActivity extends ListActivity {
 	public boolean onOptionsItemSelected(MenuItem item) {
 		//switch cases for action bar items
 		switch (item.getItemId()) {
+<<<<<<< HEAD
             case R.id.action_add_new_alarm: {
                 startAlarmDetailsActivity(-1);
                 break;
@@ -96,6 +117,23 @@ public class AlarmListActivity extends ListActivity {
                 break;
             }
         }
+=======
+		case R.id.action_add_new_alarm: {
+			startAlarmDetailsActivity(-1);
+			break;
+		}
+		case R.id.action_sleep_alarm_button: {
+			Intent intent = new Intent(this, SleepAlarmActivity.class);
+			startActivityForResult(intent, 0);
+			break;
+		}
+		case R.id.action_awake_alarm_button: {
+			Intent intent = new Intent(this, AwakeAlarmActivity.class);
+			startActivityForResult(intent, 0);
+			break;
+		}
+		}
+>>>>>>> origin/master
 
 		return super.onOptionsItemSelected(item);
 	}

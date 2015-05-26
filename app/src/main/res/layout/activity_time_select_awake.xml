@@ -6,8 +6,12 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+<<<<<<< HEAD
     tools:context="com.petersoboyejo.yiblr.TimeSelectAwakeActivity$PlaceholderFragment"
     android:background="@color/background_floating_material_dark">
+=======
+    tools:context="com.example.sleepz.TimeSelectAwakeActivity$PlaceholderFragment" >
+>>>>>>> origin/master
 
     <ListView
         android:id="@+id/awake_time_list"

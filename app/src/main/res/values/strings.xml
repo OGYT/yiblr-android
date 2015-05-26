@@ -13,6 +13,10 @@
     <string name="AlarmEdit_bio">Use our fancy bio feature</string>
     <string name="AlarmEdit_description">Description...</string>
     <string name="AlarmEdit_sound">Set alarm sound</string>
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
     <string name="title_activity_alarm_details">AlarmDetailsActivity</string>
     <string name="details_alarm_name">Alarm Name</string>
     <string name="details_repeat_weekly">Repeat Weekly</string>
@@ -30,8 +34,13 @@
     <string name="title_activity_time_select">TimeSelectActivity</string>
     <string name="title_activity_awake_alarm">AwakeAlarmActivity</string>
     <string name="title_activity_time_select_awake">TimeSelectAwakeActivity</string>
+<<<<<<< HEAD
     <string name="activate">Activate</string>
     <string name="title_activity_about">AboutActivity</string>
     <string name="title_activity_tutorial">TutorialActivity</string>
+=======
+
+
+>>>>>>> origin/master
 
 </resources>

@@ -26,6 +26,11 @@ public class SplashActivity extends Activity {
                 finish();
 
             }
+<<<<<<< HEAD
         }, SPLASH_TIME_OUT);
+=======
+        }, SPLASH_TIME_OUT);g
+
+>>>>>>> origin/master
     }
 }

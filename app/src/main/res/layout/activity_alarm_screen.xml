@@ -6,7 +6,11 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+<<<<<<< HEAD
     tools:context="com.petersoboyejo.yiblr.AlarmScreenActivity$PlaceholderFragment" >
+=======
+    tools:context="com.example.sleepz.AlarmScreenActivity$PlaceholderFragment" >
+>>>>>>> origin/master
 
     <TextView
         android:id="@+id/alarm_screen_title"
@@ -22,7 +26,11 @@
         android:id="@+id/alarm_screen_time"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:layout_alignLeft="@+id/testDismiss"
+=======
+        android:layout_alignLeft="@+id/alarm_screen_button"
+>>>>>>> origin/master
         android:layout_below="@+id/alarm_screen_title"
         android:layout_marginTop="28sp"
         android:text="00 : 00"
@@ -38,7 +46,11 @@
         android:text="Alarm name" />
 
     <Button
+<<<<<<< HEAD
         android:id="@+id/testDismiss"
+=======
+        android:id="@+id/alarm_screen_button"
+>>>>>>> origin/master
         android:background="@drawable/custom_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -47,17 +59,42 @@
         android:layout_marginTop="31sp"
         android:onClick="checkAnswer"
         android:text="Dismiss"
+<<<<<<< HEAD
         android:textSize="38sp"
         android:textColor="#ffffff" />
+=======
+        android:textSize="38sp" />
+>>>>>>> origin/master
 
     <TextView
         android:id="@+id/alarm_question_textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:layout_below="@+id/testDismiss"
+=======
+        android:layout_below="@+id/alarm_screen_button"
+>>>>>>> origin/master
         android:layout_centerHorizontal="true"
         android:layout_marginTop="24sp"
         android:text="Medium Text"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
+<<<<<<< HEAD
+=======
+    <EditText
+        android:id="@+id/alarm_answer_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/alarm_question_textview"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19sp"
+        android:ems="10"
+        android:hint="Answer"
+        android:inputType="number" >
+
+        <requestFocus />
+    </EditText>
+
+>>>>>>> origin/master
 </RelativeLayout>

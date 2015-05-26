@@ -11,8 +11,12 @@
         android:paddingLeft="16sp"
         android:paddingRight="16sp"
         android:paddingTop="16sp"
+<<<<<<< HEAD
         tools:context=".AlarmDetailsActivity"
         android:background="@color/background_floating_material_dark">
+=======
+        tools:context=".AlarmDetailsActivity" >
+>>>>>>> origin/master
 
         <TimePicker
             android:id="@+id/alarm_details_time_picker"
@@ -29,6 +33,7 @@
             android:layout_marginBottom="@dimen/activity_vertical_margin"
             android:layout_marginTop="@dimen/activity_vertical_margin"
             android:ems="10"
+<<<<<<< HEAD
             android:hint="@string/details_alarm_name"
             android:layout_alignRight="@+id/divider2"
             android:layout_alignEnd="@+id/divider2"
@@ -37,6 +42,9 @@
             android:textColor="@color/background_floating_material_light"
             android:textColorHighlight="@color/background_floating_material_light"
             android:textAppearance="@color/background_floating_material_light" />
+=======
+            android:hint="@string/details_alarm_name" />
+>>>>>>> origin/master
 
         <View
             android:id="@+id/divider2"
@@ -53,8 +61,12 @@
             android:layout_marginBottom="@dimen/activity_vertical_margin"
             android:layout_marginTop="@dimen/activity_vertical_margin"
             android:text="@string/details_repeat_weekly"
+<<<<<<< HEAD
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:textColor="@color/background_floating_material_light" />
+=======
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+>>>>>>> origin/master
 
         <View
             android:id="@+id/divider1"
@@ -78,8 +90,12 @@
             android:layout_alignLeft="@+id/divider1"
             android:layout_below="@+id/divider1"
             android:layout_marginTop="@dimen/activity_vertical_margin"
+<<<<<<< HEAD
             android:text="@string/details_sunday"
             android:textColor="@color/background_floating_material_light"/>
+=======
+            android:text="@string/details_sunday" />
+>>>>>>> origin/master
 
         <TextView
             android:id="@+id/alarm_details_label_monday"
@@ -88,7 +104,10 @@
             android:layout_alignLeft="@+id/alarm_details_label_sunday"
             android:layout_below="@+id/alarm_details_repeat_sunday"
             android:layout_marginTop="@dimen/activity_vertical_margin"
+<<<<<<< HEAD
             android:textColor="@color/background_floating_material_light"
+=======
+>>>>>>> origin/master
             android:text="@string/details_monday" />
 
         <TextView
@@ -98,7 +117,10 @@
             android:layout_alignParentLeft="true"
             android:layout_below="@+id/alarm_details_label_monday"
             android:layout_marginTop="@dimen/activity_vertical_margin"
+<<<<<<< HEAD
             android:textColor="@color/background_floating_material_light"
+=======
+>>>>>>> origin/master
             android:text="@string/details_tuesday" />
 
         <TextView
@@ -108,8 +130,12 @@
             android:layout_alignParentLeft="true"
             android:layout_below="@+id/alarm_details_label_tuesday"
             android:layout_marginTop="@dimen/activity_vertical_margin"
+<<<<<<< HEAD
             android:text="@string/details_wednesday"
             android:textColor="@color/background_floating_material_light" />
+=======
+            android:text="@string/details_wednesday" />
+>>>>>>> origin/master
 
         <TextView
             android:id="@+id/alarm_details_label_thursday"
@@ -118,7 +144,10 @@
             android:layout_alignParentLeft="true"
             android:layout_below="@+id/alarm_details_label_wednesday"
             android:layout_marginTop="@dimen/activity_vertical_margin"
+<<<<<<< HEAD
             android:textColor="@color/background_floating_material_light"
+=======
+>>>>>>> origin/master
             android:text="@string/details_thursday" />
 
         <TextView
@@ -128,7 +157,10 @@
             android:layout_alignParentLeft="true"
             android:layout_below="@+id/alarm_details_label_thursday"
             android:layout_marginTop="@dimen/activity_vertical_margin"
+<<<<<<< HEAD
             android:textColor="@color/background_floating_material_light"
+=======
+>>>>>>> origin/master
             android:text="@string/details_friday" />
 
         <TextView
@@ -225,8 +257,12 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/activity_vertical_margin"
                 android:text="@string/details_alarm_tone"
+<<<<<<< HEAD
                 android:textSize="18sp"
                 android:textColor="@color/background_floating_material_light" />
+=======
+                android:textSize="18sp" />
+>>>>>>> origin/master
 
             <TextView
                 android:id="@+id/alarm_label_tone_selection"
@@ -234,8 +270,12 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/activity_vertical_margin"
                 android:text="@string/details_alarm_tone_default"
+<<<<<<< HEAD
                 android:textSize="14sp"
                 android:textColor="@color/background_floating_material_light" />
+=======
+                android:textSize="14sp" />
+>>>>>>> origin/master
         </LinearLayout>
 
         <View

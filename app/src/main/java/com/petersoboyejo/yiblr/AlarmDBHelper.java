@@ -8,10 +8,16 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+<<<<<<< HEAD
 import android.location.LocationListener;
 import android.net.Uri;
 
 import com.petersoboyejo.yiblr.AlarmContract.Alarm;
+=======
+import android.net.Uri;
+
+import com.example.sleepz.AlarmContract.Alarm;
+>>>>>>> origin/master
 
 public class AlarmDBHelper extends SQLiteOpenHelper {
 
@@ -125,7 +131,10 @@ public class AlarmDBHelper extends SQLiteOpenHelper {
 		ContentValues values = populateContent(model);
 		return getWritableDatabase().update(Alarm.TABLE_NAME, values,
 				Alarm._ID + " = ?", new String[] { String.valueOf(model.id) });
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
 	}
 
 	//delete the alarm from the database
