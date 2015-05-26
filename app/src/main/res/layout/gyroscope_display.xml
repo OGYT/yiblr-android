@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/background_material_dark">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Gyroscope Settings"
+                android:id="@+id/textView2"
+                android:textSize="35dp"
+                android:textColor="@color/background_material_light"
+                android:layout_above="@+id/imageView2"
+                android:layout_centerHorizontal="true" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView2"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:maxHeight="250dp"
+                android:maxWidth="250dp"
+                android:minHeight="200dp"
+                android:minWidth="200dp"
+                android:src="@drawable/gyroscope" />
+
+            <RadioButton
+                android:layout_width="@android:dimen/thumbnail_height"
+                android:layout_height="@android:dimen/thumbnail_width"
+                android:text="Activate"
+                android:id="@+id/radioButton"
+                android:textSize="25dp"
+                android:textColor="@color/background_material_light"
+
+                android:layout_alignBottom="@+id/button"
+                android:layout_alignLeft="@+id/textView3"
+                android:layout_alignStart="@+id/textView3"
+                android:layout_below="@+id/imageView2" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Next"
+                android:id="@+id/button"
+                android:textSize="20dp"
+                android:layout_below="@+id/imageView2"
+                android:layout_toRightOf="@+id/radioButton"
+                android:layout_toEndOf="@+id/radioButton" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Small Text"
+                android:id="@+id/textView3"
+                android:layout_centerVertical="true"
+                android:layout_alignLeft="@+id/textView2"
+                android:layout_alignStart="@+id/textView2" />
+        </RelativeLayout>
+    </FrameLayout>
+</LinearLayout>

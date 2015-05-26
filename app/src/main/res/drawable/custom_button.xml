@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- custom button code found from http://stackoverflow.com/questions/1521640/standard-android-button-with-a-different-color  -->
+    <item android:state_pressed="true" >
+        <shape>
+            <gradient
+                android:startColor="#E53935"
+                android:endColor="#E53935"
+                android:angle="270" />
+            <stroke
+                android:width="3sp"
+                android:color="#E53935" />
+            <corners
+                android:radius="3sp" />
+            <padding
+                android:left="10sp"
+                android:top="10sp"
+                android:right="10sp"
+                android:bottom="10sp" />
+        </shape>
+    </item>
+
+    <item android:state_focused="true" >
+        <shape>
+            <gradient
+                android:endColor="#E53935"
+                android:startColor="#E53935"
+                android:angle="270" />
+            <stroke
+                android:width="3sp"
+                android:color="#E53935" />
+            <corners
+                android:radius="3sp" />
+            <padding
+                android:left="10sp"
+                android:top="10sp"
+                android:right="10sp"
+                android:bottom="10sp" />
+        </shape>
+    </item>
+
+    <item>        
+        <shape>
+            <gradient
+                android:endColor="#E53935"
+                android:startColor="#E53935"
+                android:angle="270" />
+            <stroke
+                android:width="3sp"
+                android:color="#E53935" />
+            <corners
+                android:radius="3sp" />
+            <padding
+                android:left="10sp"
+                android:top="10sp"
+                android:right="10sp"
+                android:bottom="10sp" />
+        </shape>
+    </item>
+</selector>

@@ -2,39 +2,67 @@
 <items version="2" >
 
     <item
-        jar="/Users/p3ter/Desktop/CodeDay Winter/yiblr-android/app/libs/sugar-1.4_beta.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="4101767d6f58049ff480be3deeecab2fdbbb0361">
-        <dex dex="/Users/p3ter/Desktop/CodeDay Winter/yiblr-android/app/build/intermediates/pre-dexed/debug/sugar-1.4_beta-b9a5c2451eec156107efa98eea0c16339ee3c7a1.jar" />
-    </item>
-    <item
-        jar="/Users/p3ter/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
-        <dex dex="/Users/p3ter/Desktop/CodeDay Winter/yiblr-android/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-26bd6016951d611170c08f0f2a599dc323ecf3f0.jar" />
-    </item>
-    <item
-        jar="/Users/p3ter/Desktop/CodeDay Winter/yiblr-android/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
-        <dex dex="/Users/p3ter/Desktop/CodeDay Winter/yiblr-android/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-fc7e22e05973a57993b9f512791a2c4bfa22427e.jar" />
-    </item>
-    <item
-        jar="/Users/p3ter/Desktop/CodeDay Winter/yiblr-android/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jar="/Users/Harismaran/Dropbox/yiblr-android/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
-        <dex dex="/Users/p3ter/Desktop/CodeDay Winter/yiblr-android/app/build/intermediates/pre-dexed/debug/classes-1436a18fb8bdcd12995c0164983d6a7c378884d7.jar" />
+        <dex dex="/Users/Harismaran/Dropbox/yiblr-android/app/build/intermediates/pre-dexed/debug/classes-1b41a7efd99c882b31ab62dd8344d69321043bba.jar" />
     </item>
     <item
-        jar="/Users/p3ter/Desktop/CodeDay Winter/yiblr-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jar="/Users/Harismaran/Dropbox/yiblr-android/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/Harismaran/Dropbox/yiblr-android/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-23d76d1dc08e025effe33e88edb3a6edf22d69f7.jar" />
+    </item>
+    <item
+        jar="/Users/Harismaran/Dropbox/yiblr-android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.2/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4796f18d3750bf2bfa078407a94a7f9db35b440d">
+        <dex dex="/Users/Harismaran/Dropbox/yiblr-android/app/build/intermediates/pre-dexed/debug/classes-25e65319215b482ddfd6e4f6bbc6f5d7d7cb74ef.jar" />
+    </item>
+    <item
+        jar="/Users/Harismaran/Dropbox/yiblr-android/app/build/intermediates/exploded-aar/com.melnykov/floatingactionbutton/1.2.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="65620ba5e576dcec2c86efa440b00d042a27383b">
+        <dex dex="/Users/Harismaran/Dropbox/yiblr-android/app/build/intermediates/pre-dexed/debug/classes-706bd29e456861064c470dca3272b43cbb0f8bc2.jar" />
+    </item>
+    <item
+        jar="/Users/Harismaran/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/Harismaran/Dropbox/yiblr-android/app/build/intermediates/pre-dexed/debug/library-2.4.0-80b475bd1eacf38f9b094e160b35035b1bee787d.jar" />
+    </item>
+    <item
+        jar="/Users/Harismaran/Dropbox/yiblr-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
-        <dex dex="/Users/p3ter/Desktop/CodeDay Winter/yiblr-android/app/build/intermediates/pre-dexed/debug/classes-11ab5f139db0502b04000804f1b40ee7d02b4447.jar" />
+        <dex dex="/Users/Harismaran/Dropbox/yiblr-android/app/build/intermediates/pre-dexed/debug/classes-a0c735d07f89c82fdfe71ef2da21904910e7c601.jar" />
+    </item>
+    <item
+        jar="/Users/Harismaran/Dropbox/yiblr-android/app/libs/sugar-1.4_beta.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4101767d6f58049ff480be3deeecab2fdbbb0361">
+        <dex dex="/Users/Harismaran/Dropbox/yiblr-android/app/build/intermediates/pre-dexed/debug/sugar-1.4_beta-cb64b4926c7952382f829af6c1df26539179a8dc.jar" />
+    </item>
+    <item
+        jar="/Users/Harismaran/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/Users/Harismaran/Dropbox/yiblr-android/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-6e6420f874b8dc6188e7c64c3966fc4ea2020ede.jar" />
+    </item>
+    <item
+        jar="/Users/Harismaran/Dropbox/yiblr-android/app/build/intermediates/exploded-aar/com.getpebble/pebblekit/2.6.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="660dc1d342b8e31da1cc51e79c66d636a77a1e98">
+        <dex dex="/Users/Harismaran/Dropbox/yiblr-android/app/build/intermediates/pre-dexed/debug/classes-955d05efe0caf73d259df2593b7b539a67b2cd62.jar" />
     </item>
 
 </items>
